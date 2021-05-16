@@ -1,0 +1,27 @@
+
+version: 2
+
+models:
+    - name: other-Skyline_B00111_tb
+      columns:
+          - name: Date_
+          - name: Time_
+          - name: Street_Address
+          - name: City_State
+          - name: Castom1
+          - name: Castom
+
+    - name: Uber-Jan-Feb-FOIL_tb
+      columns:
+          - name: dispatching_base_number
+          - name: date_
+          - name: active_vehicles
+          - name: trips
+
+    - name: uber-raw-data-apr14_tb
+      columns:
+          - name: Date_Time
+          - name: Lat
+          - name: Lon
+          - name: Base
+        

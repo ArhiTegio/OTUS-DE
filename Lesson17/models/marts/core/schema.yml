@@ -1,0 +1,19 @@
+version: 2
+
+models:
+    - name: final_base
+      description: This table has basic information about a orders
+      columns:
+          - name: Date_Time
+          - name: Lat
+          - name: Lon
+          - name: base
+          - name: active_vehicles
+          - name: trips
+
+    - name: final_over
+      columns:
+          - name: Date_Time
+          - name: Street_Address
+          - name: City_State
+        
